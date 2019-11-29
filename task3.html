@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html>
+
+
+<body class="container" id="top">
+
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="designer" content="Rob Dongas">
+    <!-- Required imported CSS files -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <!-- Main CSS file -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- Title -->
+    <title>Interaction Design Studio</title>
+  </head>
+
+
+  <body class="container" id="top">
+
+    <!-- Make your modifications below -->
+    <header>
+      <div class="header-container">
+        <!-- <h1>FINANCE FOREST</h1> -->
+      </div>
+
+
+      <div class="header-img"></div>
+
+
+      <nav>
+        <input type="checkbox" id="toggle" checked>
+        <label for="toggle" class="nav-toggle">
+          <div class="nav-icon"></div>
+        </label>
+        <ul>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li class="active">
+            <a href="task3.html">Process and Final Design</a>
+          </li>
+          <!--
+          <li>
+          <a href="task2.html">Task 2</a>
+        </li>
+        <li>
+        <a href="task3.html">Task 3</a>
+      </li>
+    -->
+  </ul>
+</nav>
+</header>
+
+<!-- Make your navigation modifications below -->
+<!-- Replicate the heading structure for a 'table of contents' nav -->
+<aside>
+  <div class="aside-container">
+    <h4>Jump To...</h4>
+    <ol>
+      <li><a href="#part1"><strong> Introduction</strong></a></li>
+      <ol>
+        <li><a href="#part1-1">Insights from Research</a></li>
+        <li><a href="#part1-2">The Problem: Defined</a></li>
+        <li><a href="#part1-3">Early Concepts</a></li>
+        <li><a href="#part1-4">Moving Forward</a></li>
+      </ol>
+
+
+      <li><a href="#part2"><strong> The Process</strong> </a></li>
+
+      <!-- <li><a href="#part2-1">Building the Foundations</a></li> -->
+      <ol>
+        <li><a href="#part2-2">Flow Diagrams</a></li>
+        <li><a href="#part2-1">Paper Prototypes</a></li>
+        <!-- <li><a href="#part2-2">Paper Prototyping</a></li>
+        <li><a href="#part2-3">Low-fidelity Insights</a></li> -->
+      </ol>
+
+      <li><a href="#part3"><strong> Making Changes</strong></a></li>
+
+      <ol>
+        <li><a href="#part3-1">Mid-fidelity Prototypes</a></li>
+        <!-- <li><a href="#part3-2">Mid-fidelity Insights</a></li> -->
+      </ol>
+
+      <li><a href="#part4"><strong>It's All In The Details</strong></a></li>
+      <ol>
+        <li><a href="#part4-1">High-fidelity Prototypes
+        </a></li>
+        <li><a href="#part4-2">High-fidelity Wireflow
+        </a></li>
+        <!-- <li><a href="#part4-2">High-fidelity Wireflow</a></li>
+        <li><a href="#part4-3">High-fidelity Insights</a></li> -->
+      </ol>
+
+
+
+      <li><a href="#part5"><strong>The Solution</strong></a></li>
+      <ol>
+
+
+        <li><a href="#part5-1">Final Screens</a></li>
+        <li><a href="#part5-2"> User Journey Map</a></li>
+        <li><a href="#part5-3">Interactive Prototype</a></li>
+        <li><a href="#part5-4">Style Guide</a></li>
+        <li><a href="#part5-5">Videos</a></li>
+
+      </ol>
+      <li><a href="#part6"><strong>Next Steps</strong></a></li>
+    </ol>
+    <ol>
+      <li><a href="#part7"><strong>References</strong></a></li>
+    </ol>
+    <ol>
+      <li><a href="#part8"><strong>Appendix</strong></a></li>
+    </ol>
+  </ol>
+</div>
+</aside>
+
+<main>
+  <article>
+
+    <!-- Make your content modifications below -->
+    <!-- Section for the top banner heading -->
+    <section class="title-container">
+      <h1 id="title">Process and Final Design</h1>
+      <p>Completed by Charlotte, Daniel and Dylan | 15 November 2019</p>
+      <span class="separator"></span>
+    </section>
+
+    <!-- Body section with heading elements -->
+    <section class="content-container">
+      <h1 id="part1">  Introduction </h1>
+      <p>This report will demonstrate our design process including iterations, testing and how we came to our final solution.</p>
+
+      <p>Finance Forest is our solution to issues made clear by primary and secondary research, such as addressing the lack of engaging financial education in primary schools, and exploring how to facilitate financial learning and understanding of value when our society is becomining increasingly cashless. </p>
+
+      <p>Our solution is the form of a tablet application, which is used by educators in the school system as an aid in teaching financial concepts. The application will help children understand financial concepts and subsequently build beneficial monetary habits from a young age, which will assist them in the long term.</p>
+
+      <h2 id="part1-1">Insights from Research</h2>
+      <p>Our main research insights from task one was that <strong> financial education in schools is lacking or not engaging enough for students to retain information.</strong> Similarly, many children were <strong> not involved in conversations about money at home</strong>, yet it was found that most Australian parents hold themselves accountable for their child’s financial education. Another finding was that financial products are becoming <strong>more complicated yet more accessible.</strong> This accessibility to virtual forms of money skews children’s perception of value, which is crucial to making positive financial decisions.</p>
+
+      <figure class="image-container">
+        <img src="img/infographic.png" alt="a graph" />
+        <figcaption>Financial Planning Association of Australia (2018).</figcaption>
+      </figure>
+
+      <p>An overwhelming theme in our research is that children need to learn about different forms of currency at a young age in an interactive and engaging way, in order to have a healthy relationship with money.</p>
+
+      <figure class="image-container">
+        <img src="img/prev-insights.jpg" alt="Synthesising our previous research." />
+        <figcaption>Synthesising our previous research.</figcaption>
+      </figure>
+
+      <!--
+      <figure class="image-container">
+      <img src="img/_________" alt="This is an image." />
+      <figcaption>Caption.</figcaption>
+    </figure>
+  -->
+
+  <h2 id="part1-2">The Problem: Defined</h2>
+  <p>The problem we are trying to alleviate is children's warped perception of monetary value. Through our research, we found that this can be characterised in two ways. <strong>The lack of tangibility of money as we move into a cashless society, and the lack of engagement when learning about financial concepts.</strong></p>
+
+  <p>The tangibility of money is disappearing. This is expected as we become a more digitally focused society. Through this transition however, we leave behind parts of the analogue world that were useful in their own ways, such as the physicality of money. Prior to emerging digital technologies, people could learn about money with greater levels of context as they could physically hold, count and save notes and coins. But as these small coins and notes turn into numbers on a screen, it becomes harder to see how these numbers relate to the world and what they mean for today's children. Although children do receive pocket money in the form of tangible money, there are more and more options available to parents and children, such as <a href="https://www.spriggy.com.au/">Spriggy</a> and <a href="https://https://www.commbank.com.au/personal/kids/school-banking/dollarmites.html">Dollarmites</a>. </p>
+
+  <figure class="image-container">
+    <img src="img/prob-defined.jpg" alt="whiteboard filled with writing" />
+    <figcaption>Looking at the problem critically.</figcaption>
+  </figure>
+
+  <p>The second key factor affecting children's financial literacy is the low level of engagement in classrooms. We found that children’s financial education in schools is just simply not engaging enough, if it even does occur at all. Out of 14 primary school children interviewed,<strong> only 6 could recall any single thing they had learnt in school about money.</strong> During the interview process, we found that some children were given access to play money within class rooms, yet, as is demonstrated in task 1, most children had a low understanding of monetary value.  </p>
+
+  <p>To quote Dorst's <em>Frame Innovation,</em> we can describe this problem as being <strong>'open, complex, dynamic and networked' (2015).</strong> It is not solvable in the sense that it can be fixed and forgotten, but rather only alleviated and assisted. Through this frame, we aim to do the best we can in designing a solution that can help in realigning children's perceptions of money with its true value.</p>
+
+  <h2 id="part1-3">Early Concepts</h2>
+
+  <h3 id="part1-4">Moving Forward: Finance Forest</h3>
+
+  <p>Originally, Finance Forest was a teacher led program suited to the classroom. Students in the class are given access to a tablet or computer which displays daily challenges assigned by the teacher.</p>
+
+  <p>Each child could see their tree on the home page, and it's growth represents the child's progress.  Skills are taught in the form of lessons that the child must complete to continue growing their tree. Each student also has their own profile, which displays their name, photo, number of lessons learnt, and stats, which are compared to other people in the classroom. Each student has access to a chart which demonstrates the class average growth, top growth, lowest growth, and the student’s individual growth, demonstrated using tree rings.</p>
+
+  <figure class="image-container">
+    <img src="img/ff-concepts1.jpg" alt="whiteboard filled with writing about finance forest"/>
+    <figcaption>Early ideation of Finance Forest</figcaption>
+  </figure>
+
+  <p>This concept was initially very strong, as it helps to solve our core problem by re-teaching value to children through challenges to encourage friendly competition in an interactive and engaging way. It would teach children about the transactional process and give a way of visualising their progress.</p>
+
+  <p>There were some drawbacks to this concept however, as children could use their progress or a classmate's lack of progress to cause conflict. We also to think of ways to make the application as engaging as possible, so that children would be excited to log on, as opposed to their traditional financial education. </p>
+
+  <figure class="image-container">
+    <img src="img/ff-concepts2.png" alt="screen with finance forest concept"/>
+  </figure>
+
+  <figure class="image-container">
+    <img src="img/ff-concepts3.png" alt="screen with tree and ui boxes"/>
+
+  </figure>
+
+  <h3 >My Treasure</h3>
+
+  <p>Our second concept is My Treasure, which utilises augmented reality through a phone or tablet to visually convey how much money a child has. Currently, there is no way for children to understand how much money they have in their savings in terms of a visual depiction that they can comprehend. By visualising children’s savings, they can gain an accurate perception of monetary value.</p>
+
+  <figure class="image-container">
+    <img src="img/ar-concepts4.jpg" alt="whiteboard filled with writing about AR treasure with random drawings"/>
+    <figcaption>Early ideation of My Treasure (AR Treasure)</figcaption>
+  </figure>
+
+  <p>Children can pick up coins and notes, and see a pop-up menu that gives information about the coin. For example, it could be a $2 coin that came from pocet money two weeks ago. Children can grab a pile of their money in their hand and the app will display its value. My Treasure would also allow the child to visualise what different amounts of money could buy them. For example, a child picking up 30 dollars will show them they can buy a roblox gift card or lego set. They can can create savings goals on the app, which is visualised as an empty pile outline. If a child wants to save up for a new playstation, for example, they can move their money into that pile and see how much more they need to save.</p>
+
+  <p>My Treasure helps to solve our core problem as children can visually gauge monetary value and the worth of specific items. It contextualises numbers on the screen and allows for savings goals, which is integral to understanding monetary value. </p>
+
+  <p>There are a few drawbacks to this concept. There is not much reason to come back to the AR experience regularly if the child's income doesn't change frequently, meaning it could be viewed as a one-time novelty.  </p>
+
+
+  <figure class="image-container">
+    <img src="img/ar-concepts5.png" alt="AR Treasure camera screen"/>
+    <figcaption>Early mockups.</figcaption>
+  </figure>
+
+  <h3 >Penny Painter</h3>
+
+  <p>Our final concept is called Penny Painter. This concept is limited to children under 13, and teaches them about the transaction process, buying, selling, and value. Using a tablet, children draw inside the canvas to create an artwork. Each child begins with a basic kit of digital painting tools. Once their artwork is complete they can put it up for auction, where other children can place bids on it using play money which resembles real currency. This process allows children to earn play money, which can be used to buy more digital art supplies.</p>
+
+  <figure class="image-container">
+    <img src="img/pp-concepts1.png" alt="boy biding on art"/>
+    <figcaption>Early storyboarding for Penny Painter.</figcaption>
+  </figure>
+
+  <p>Penny Painter also teaches value through the bidding process as players decide how much they think the artwork is worth based on what others are bidding. In a circumstance where children’s artworks aren’t being bid on by other players, a bot will place a bid. This means that every player, despite the popularity or quality of their art can still engage with the transaction process and learn about money.</p>
+
+  <p>Penny painter teaches children the value of money in an engaging way, which allows them to act as both the buyer and the seller. In this way, users can experiment with virtual play money without having real world implications. They can also understand loss And worth, and supply and demand whilst bidding on other children’s art.</p>
+
+  <p>This concept does have some drawbacks. Children could be upset with their painting if it does not generate high bids, and children could be upset if they miss out on buying a painting they like.</p>
+
+  <figure class="image-container">
+    <img src="img/pp-concepts2.png" alt="login screen"/>
+  </figure>
+
+  <figure class="image-container">
+    <img src="img/pp-concepts3.png" alt="artboard with prompt to draw"/>
+    <figcaption>Early UI screens.</figcaption>
+  </figure>
+
+  <h2 id="part1-4">Moving Forward</h2>
+  <p>We chose to proceed with Finance Forest as it fulfilled our criteria for success more than the other concepts. Our updated criteria for success was that the product must:</p>
+<blockquote
+  <ul>
+    <li>Be interactive and engaging</li>
+    <li>Re-align children’s understanding of the value of money effectively.</li>
+    <li>Be understandable for primary school aged children and draw on an appropriate mental model.</li>
+    <li>Require no pre-requisite or assumed knowledge.</li>
+  </ul>
+</blockquote>
+
+  <p>Finance Forest addresses all of these criteria. First, it is interactive and engaging as lessons are in the form of games and challenges. Children are incentivised to continue with lessons to beat their peers through friendly competition. The use of additional extras along the way, such as the shop, keeps the game interesting and dynamic, and adds an element of customisability. Finance Forest’s high level of engagement <strong> solves one of our main issues identified through user research, which was that children aren’t finding current financial education engaging enough, meaning that they fail to retain  information</strong>.</p>
+
+  <p>Finance Forest also effectively teaches monetary value to children through the lessons, which are unlimited in scope and difficulty, making the platform extremely versatile and adaptable. Each week has a new concept, and children can revisit lessons at any time. Although My Treasure taught monetary value very well by visualising savings, it could remain stagnant for periods of time, and therefore fails to be consistently engaging.</p>
+
+  <p>In addition, Finance Forest is <strong>easily understood by children, and uses themes and symbols familiar to them to introduce new concepts</strong>. For example, the motif of the tree to represent the growth of knowledge is very familiar to children, and is therefore an appropriate tool to introduce new concepts. Alternatively, Penny Painter failed in this regard, as the new concept of auctioning and transaction increasing children's cognitive load as it is unfamiliar. </p>
+
+  <p>Seeing as Finance Forest begins when the child starts school and is a government initiative, there is no pre-requisite or assumed knowledge required to use it. Each child moves at the same pace, and there is opportunity to revise prior lessons. If a child is falling behind, this can be viewed by their teacher and they can be given extra help, without needing to draw attention to themselves.</p>
+</section>
+
+
+
+
+
+
+<section class="content-container">
+  <h1 id="part2">The Process</h1>
+
+  <h2 >Building the foundations: Early designs and Low-fidelity testing</h2>
+
+  <h3 id="part2-2"> Flow Diagram and Wireflow</h3>
+
+  <p>As a group we needed to understand the steps the user would take to navigate between pages. We mapped out each section and their associated links, to create a flow diagram. From there we eliminated and added sections as necessary.</p>
+
+  <p>Finance Forest begins with the user logging in and completing the lesson of the day. After completion the user would then be able to use the other features of the application. The home screen of is where the user can access all of the features within Finance Forest. This includes tree maintenance, nursery (to buy items), customize, profile, & settings, tree forest, progress and lessons.</p>
+
+
+
+
+
+    <!-- Trigger the Modal -->
+
+<img id="myImg" src="img/flow1-nosketch.png"  style="width:100%;max-width:100%">
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- The Close Button -->
+      <span class="close">&times;</span>
+
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content" id="img01">
+
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption"></div>
+    </div>
+
+
+
+<figure class="image-container">
+    <figcaption> Our original flow diagram. Click to expand. </figcaption>
+
+
+    </figure>
+    <!-- MODAL END -->
+
+    <p>From gathering feedback we found that users were confused about the “lessons start” page, thinking that this was the home page as it appeared first when they logged in. We addressed this by allowing the user to freely explore the app, rather than be forced into completing the lesson. </p>
+
+    <figure class="image-container">
+      <img src="img/flow3-sketch.png" alt="a detailed sketch of a wireflow"/>
+    </figure>
+
+    <p>Navigation within Finance Forest was initially in the form of a burger menu which is accessible from any page. We included on screen navigation in the form of arrows that allow the user to swipe between pages.</p>
+
+    <p>As is seen in the wireflow, users can visit their friends profile where they can select items on their friends tree and buy it from the nursery.</p>
+
+    <p>A customization menu is implemented on the home screen, which can be accessed via a swipe or click gesture. When the menu is open, users will be able to drag and drop items on to the tree.</p>
+
+    <p>We have a 'tree maintenance' section in the wireflow, however we decided to get rid of this feature early on as it didn't relate to our criteria for sucess. </p>
+
+
+    <h3 id="part2-1" >Paper Prototyping</h3>
+
+    <p>Paper Prototypes were used early on in the design process to identify any usability issues, particularly to do with navigation. By conducting user testing with low fidelity paper prototypes, we were able to understand how intuitive the app was to use, and could make appropriate changes quickly and easily for the next round of testing. In order to test every interaction within the app according to user needs established through prior research in task 1, users were given 3 overarching abstract tasks each with  concrete tasks within these categories.</p>
+
+    <p>These tasks were:</p>
+
+    <blockquote>
+      <p><em><strong>Abstract 1: I want my learning to be social.</strong></em></p>
+
+      <ul>
+        <li>Concrete 1: Navigate to the class forest and click on someone’s tree.</li>
+      </ul>
+
+      <p><em><strong>Abstract 2: I want positive reinforcement and to know I’m on the right track.</strong></em></p>
+
+      <ul>
+        <li>Concrete 1: Complete a lesson to get to the rewards page.</li>
+        <li>Concrete 2: After completing a lesson, notice how your tree grows and you earn more money. Go to the nursery to buy an item with this new money, and add it to your tree.</li>
+      </ul>
+
+      <p><em><strong>Abstract 3: I want to feel in control of my learning.</strong></em></p>
+
+      <ul>
+        <li>Concrete 1: Choose a challenge to complete.</li>
+        <li>Concrete 2: Change to colour-blind mode from the settings page.</li>
+      </ul>
+    </blockquote>
+
+    <p>These tasks were tested with 8 users, all of whom were either still in high school or had graduated within the past five years. It was important that these users were older as opposed to our target user group of primary school aged children, as the prototype would not have been well received or understood by this group.</p>
+
+    <figure class="image-container">
+      <img src="img/lofi-proto1.jpg" alt="human interacting with paper prototype"/>
+      <figcaption>Paper prototype testing</figcaption>
+    </figure>
+
+    <p>The think aloud method and contextual observations were used to understand the thought processes behind a user’s action, and identify when they made errors and why. User feedback was tabulated with the following headings (completed tables can be found in the <a href="task3-appendix.html">appendix)</a> .</p>
+<blockquote>
+    <ul>
+      <li>Task</li>
+      <li>Time it took to complete</li>
+      <li>Contextual observations</li>
+      <li>Errors</li>
+      <li>User Comments.</li>
+    </ul>
+  </blockquote>
+
+    <p>Users were also asked post-test interview questions to encourage reflection and gauge their overall opinions of the app in its early stages.</p>
+<blockquote>
+    <ul>
+      <li>Did you find it easy to navigate? Where there any moments where you felt lost or not sure what to do?</li>
+      <li>What did you think about the name?</li>
+      <li>Do you think this will be easily understood by primary school aged children?</li>
+      <li>Do you think the word ‘inventory’ would be understood by primary school aged children? Are there any other words you think they wouldn’t understand?</li>
+      <li>What do you think about the lesson appearing first? Do you think the rest of the app should be restricted until the lesson has been completed?</li>
+      <li>This initial round of user testing with paper prototypes provided valuable insights that allowed our team to make significant iterations to future versions of the application: </li>
+    </ul>
+  </blockquote>
+
+    <figure class="image-container">
+      <img src="img/lofi-proto3.jpg" alt="human interacting with paper prototype"/>
+      <figcaption>More paper prototype testing</figcaption>
+    </figure>
+
+    <h3 >Low Fidelity Insights</h3>
+
+
+<blockquote>
+    <p><strong><em>Changing language and tone of voice:</em></strong> Users thought that the word ‘lessons’ could discourage children from enjoying the game, as they would associate this with school and learning. We wanted to avoid this and make the app as close to a game as possible, so we changed ‘lessons’ to ‘challenges’. Additionally, some users suggested alternative names for ‘inventory’, so we changed this to a chest/treasure chest to gamify it further and make it recognisable for younger users. Additionally, one user commented that words like “objectives” and “outcomes” at the beginning of each lesson are irrelevant for children, and should be changed to something similar to “your task” or “how to”.</p>
+  </blockquote>
+<blockquote>
+    <p><strong><em>Lesson restriction:</em></strong> Initially, users had to complete the lesson of the day before they could access any other part of the app, and they could not exit out of it until the lesson was completed. We decided to change this based on user feedback, as users thought that children could resent their learning if they were forced to do the lesson before accessing other elements.</p>
+</blockquote>
+<blockquote>
+    <p><strong><em>Navigation:</em></strong> The navigation underwent significant changes, as some users found it tiresome to go back through the hamburger menu to reach a specific page, and some necessary interactions weren’t as visually accessible via the hamburger menu. An interesting observation was that half the users navigated with the on-screen arrows and the other half used the burger menu. As a result, we changed to a sticky navigation bar which clearly displays each screen as a display for the next iteration. Additionally, users tended to not notice the on screen arrow buttons which acted as a secondary navigation tool. We therefore changed the swiping navigation to adhere to app conventions by placing two semi circles on each side of the screen.</p>
+  </blockquote>
+
+    <p>The process of creating paper prototypes and gaining feedback on them proved to be extremely valuable in making changes to Finance Forest. Some actions, such as swiping and using the arrow buttons were not as intuitive as once thought, and required significant alterations to make the navigation appropriate for young first-time users. With these insights in mind, we digitised the paper prototype  and created a mid-fidelity prototype.</p>
+
+
+
+    <h2 id="part3">Making changes</h2>
+
+    <h3 id="part3-1">Mid-fidelity testing</h3>
+
+    <p>Moving forwards from our initial prototyping we moved into the digital realm. Here we made the changes mentioned above, overhauling our navigation, choice of words, and the way in which our lessons were delivered.</p>
+
+    <p>We used Figma for our prototyping, which enabled us to make rapid changes as a group and see how it would look on a tablet display.  We planned for our next round of user testing to be with older children in primrary school (8 years old and up), and so creating mid-fidelity digital prototypes was the next logical step, as children would be more likely to understand how to use it. </p>
+
+    <p> We ran our first round of user testing with this sector of the target user group by carrying out  interviews, using the think-aloud method and making contextual observations. The feedback we gained was very valuable, as our users were able to provide valuable insight into what they did or didn't understand. We were then able to translate this feedback into insights.  </p>
+
+    <figure class="image-container">
+      <img src="img/midfi-testing1.jpg" alt="a childs hand interacting with the prototype"/>
+      <figcaption>One of our participants interacting with the prototype.</figcaption>
+    </figure>
+
+    <h3 >Mid-fidelity Insights</h3>
+
+    <p>From our testing with learned of a mirad of issues which had overlooked. The two biggest was our <strong>customisation system</strong> and our <strong>swipe navigation.</strong></p>
+
+    <p>For the customisation, we originally represented this by a chest on the bottom right of the screen. Users could tap on it and then choose between changing their tree, or customising their existing tree with items.</p>
+
+    <p>We found that users became confused - many tried swiping the box, rather than just tapping. And the extra decision to customise or change tree within the box was making adding confusion.</p>
+
+    <p>We decided to build a swipe-up system instead, where users can swipe up from the bottom of the screen to access the menu. We used tabs identical to those already within Finance Forest to allow for consistency.</p>
+
+    <p>The other major problem we found was that <strong> none of our users used our swiping navigation intuitively</strong>. Our users said that if they knew that swiping was there they would have used it, but they just didn’t think to try. Wanting to improve our design, we decided to conduct secondary research into swiping convnetions in already existing applications.</p>
+
+    <p>One resource we found helpful was <a href="https://material.io/design/"> Google’s Material Design website.</a> This resource provided examples of ways to improve the user’s experience through design. Through the Google Material Design website, we found a large compilation of swipe animations. Browsing through this compilation, our team began to notice similarities between all swipe gesture designs.</p>
+
+    <p>The first is the <strong> use of dots or bars as an indicator for where the user is, and how far they can go with swiping.</strong> As you can see in the picture below, the dots give the user a sense of exactly where they are, and shows the other options available to them. Our top navigation bar acts as a tool to orientate the user by always showing which page they are on and where they can go. </p>
+
+    <figure class="image-container">
+      <img src="img/gesture1.png" alt="a screenshot of an app with swipe dots"/>
+      <figcaption>Use of dots as a swipe indicator.</figcaption>
+    </figure>
+
+    <p>The other indicator we noticed is how many apps show a <strong> preview of what is on the next screen </strong>. The screenshot below demonstrates this by hinting at the content of pages through iconography. We have incorporated this into our top navigation bar in the high fidelity prototype, although because our application is on a larger device and scale, we decided to make our icons more detailed whilst still giving an indication about page content. </p>
+
+    <figure class="image-container">
+      <img src="img/gesture2.png" alt="a screenshot of an app with swipe dots"/>
+      <figcaption>Iconography is used to give an indication of page content.</figcaption>
+    </figure>
+
+    <p>The last element we noticed was that many applications didn’t provide any swiping indicators at all, and decided to let the user figure it out for themselves. This also could be an option for Finance Forest, especially because kids are curious by nature, but conversely first time users will require guidance. At this point we came together as a group to make changes for the high fidelity prototype. </p>
+
+
+
+
+
+
+
+    <!------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+    <h2 id="part4">It’s all in the details: High-fidelity testing and final changes</h2>
+
+    <p>The High Fidelity Prototype  was guided by insights from paper prototyping and mid fidelity prototyping, to ensure that the app was as refined and usable as possible. At this stage, we were confident in user testing with the youngest participants within our target demographic of primary school aged children. By gradually testing younger participants, we were able to gauge their level of understanding and exposure to digital apps, and make changes accordingly. Using the prototyping tool Figma, our team was able to collaboratively develop Finance Forest.</p>
+
+    <h3 id="part4-1">High-fidelity Testing</h3>
+
+    <p>We user tested <strong> 6 of the youngest members of our target demographic,</strong> which was an insightful and challenging process. Similarly to other rounds of user testing, we gave children concrete tasks within abstract frameworks, however we phrased these tasks as a narrative to make it more appealing and easier to follow for young children. The tasks were described as follows:</p>
+
+    <blockquote>
+      <p>The first thing I want you to do is log on and go to the challenges section. Once you’ve found challenges, complete the challenge called Coin Counting.</p>
+
+      <p>Great! We’ve earned some money from completing the challenge, and have unlocked some items in the shop. So, let’s go to the shop to buy Christmas lights to add to our tree.<p>
+
+        <p>Our tree is looking much better. We want to see our progress now, so let’s go to our Profile.</p>
+
+        <p>We are doing really well, and we want to see how our classmates are doing too, so let’s go to Class Forest. Our friend Daniel has a really interesting tree, let’s look at his progress.</p>
+
+        <p>Look at his star - buy his star and add it to our tree.</p>
+
+        <p>Great, the last thing I want you to do is log out so the next person can have a turn.</p>
+      </blockquote>
+
+      <figure class="image-container">
+        <img src="img/hifi-testing1.jpg" alt="childs hands interacting with final prototype"/>
+        <figcaption>High fidelity testing</figcaption>
+      </figure>
+
+      <p>By phrasing tasks as a narrative, children were more invested and engaged in the process. We conducted a <strong>contextual observation </strong> and asked children to <strong>‘think aloud’ </strong> whilst completing the tasks. The results from user testing was again tabulated as was done with paper prototyping and mid fidelity prototyping.</p>
+
+      <p>Children were also asked follow up interview questions. These were:</p>
+<blockquote>
+      <ul>
+        <li>Was there anytime you found it difficult to use and navigate?</li>
+        <li>What changes would you make?</li>
+        <li>What do you think about seeing your progress rings on your profile?</li>
+        <li>What do you think the word flora means?</li>
+        <li>Do you think you would like to use something like this in your maths classes?</li>
+        <li>Did you know you could swipe between pages? Do you think you would be more likely to swipe between screens or use the top navigation bar, or both? Why?</li>
+        <li>What do you think seed, sprout and sapling mean?</li>
+      </ul>
+</blockquote>
+      <figure class="image-container">
+        <img src="img/hifi-testing2.jpg" alt="childs hands interacting with final prototype"/>
+        <figcaption>High fidelity testing.</figcaption>
+      </figure>
+
+      <h3 id="part4-2" >High Fidelity Wireflow </h3>
+
+      <p>After thorough user testing, we overhauled the navigation once more. As seen in the wireflow, we created two ways to navigate - through the top navigation bar, and by swiping.  From our research, we found that children responded positively to having two navigation options, as they felt they had greater control and freedom.</p>
+
+      <p>The wireflow has been split to demonstrate for readability. The first part is the two forms of navigation and the second part is the wireflow of the application.</p>
+
+      <p>In the wireflow, customise is a swipe up feature that will allow users to access their chest and tree options, including a reset button for any errors. There are also links to pages when finishing an action. An example of this is that when the user purchases an item they have the option to return to shop or proceed to their tree.</p>
+
+      <!-- <figure class="image-container">
+        <img src="img/flow2-hifi.png" alt="a high-fidelity wireflow of the app"/>
+      </figure> -->
+
+      <!-- Trigger the Modal -->
+      <img id="myImg2" src="img/flow2-hifi.png" style="width:100%;max-width:100%">
+
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+
+        <!-- The Close Button -->
+        <span class="close">&times;</span>
+
+        <!-- Modal Content (The Image) -->
+        <img class="modal-content" id="img02">
+
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
+<figure class="image-container">
+      <figcaption><em> Click to expand</em> </figcaption>
+    </figure>
+
+
+
+
+
+
+      <h3 >High-fidelity Insights</h3>
+
+      <p>Our final round of user testing provided the following insights which informed the final iterations:</p>
+<blockquote>
+      <p><em><strong>Iconography, labelling and language:</em></strong> This round of user testing stressed the importance of using icons for each labelled  element, which is especially important for the app to be intuitive to use for young children. For example, our youngest participant who was 6 years old knew what the word ‘customise’ meant, but couldn’t recognise the written word on the screen. An iteration we made based off this feedback was including the paintbrush icon next to the customise bar on the ‘My Tree’ page. We found that no children had trouble logging in or out, and we can attribute this to adequate labelling and use of icons, as well as from children's prior experience using devices. Some younger children didn’t know the word ‘flora’ within the shop, and this was changed in the final version.</p>
+</blockquote>
+<blockquote>
+      <p><em><strong>Navigation:</em></strong> The top navigation bar was very well received, and was the primary navigation tool for most participants. All 6 users initially didn’t realise that they could swipe between screens as a secondary navigation tool, despite the arrows on either side of the screen, yet all of them agreed that they would like to use it once they knew it was there. Interestingly, one participant was initially only using the top navigation bar, and <strong> organically discovered </strong>she could swipe between screens by accident. From that point onwards, she used a combination of swiping and the navigation bar to get to different pages. In the follow up questions , this participant said that she would use a combination of swiping and tapping to navigate, and couldn’t articulate why she didn’t see the swiping arrows initially. She also thought that it would be easy to ‘accidentally’ swipe between screens, and for that reason they wouldn’t need to be made more obvious.</p>
+</blockquote>
+<blockquote>
+      <p><em><strong>Profile:</em></strong> There are several types of incentives to complete challenges within Finance Forest, these are monetary (earning coins) and non monetary (unlocking items in the shop and the ranking system). Another non-monetary incentive was the progress rings within each child’s profile, which is also visible for friends within the Class Forest. Four participants  could identify that the progress rings were a visualisation of the completion of different tasks, yet most agreed they wouldn’t care about knowing their progress in terms of numbers and percentages. For this reason, we decided to change the profile to display an alternative incentive. In the final version of Finance Forest, this has changed to badges, which display goals the user must reach to earn a badge.</p>
+</blockquote>
+      <p>Ultimately, our final round of user testing proved to be very insightful, and allowed us to make minor changes to Finance Forest which made a big difference to it’s ease of use. We paid close attention to the dexterity of children, and made sure elements weren’t too close together. Children received the app well, and <strong> all children said they would like to use it in a classroom environment.</strong> </p>
+    </section>
+
+
+
+
+
+    <section class="content-container">
+      <h1 id="part5">The Solution</h1>
+      <p></p>
+
+      <h2 >Our Design</h2>
+      <p>The final design is an interactive learning companion that utilises gamification to help children understand financial concepts by <strong>bridging the gap between perceptions of physical and digital money.</strong> Our design process has been user centric from the beginning, and this is demonstrated through our final application which has undergone several iterations. Children can move freely between pages, and learn at their own pace, with (play) monetary and non-monetary incentives to encourage them.</p>
+
+      <p>Additionally, the social element of Finance Forest keeps the application <strong>interesting and dynamic,</strong> and encourages healthy competition between peers. Smaller details such as the price breakdown when making a purchase subtly makes monetary value more familiar to children. Ultimately, Finance Forest has the potential to make a significant difference in the lives of children growing up in the digital age by encouraging a positive long lasting relationship with money.</p>
+
+      <h3 id="part5-1">Final Screens</h3>
+
+      <figure class="image-container">
+        <img src="img/ff-finalscreens.png" alt="Screens from our final design." />
+
+      </figure>
+
+      <h3 id="part5-2">User Journey Map</h3>
+      <p>A user journey map was created to visualise the data we had collected from user research in a clear and concise way.  A persona and use-case scenario were included to help personify the data, and subjective elements such as emotional journey were also included to identify pain and delight points.</p>
+
+      <!-- MODAL STARTS HERE -->
+      <!-- <img id="myImg4" src="img/updatedujm.jpg" alt="User journey map of Finance Forest" style="width:100%;max-width:100%">
+      <figure class="image-container">
+
+        <figcaption> Our user journey map for Finance Forest. Click to expand. </figcaption>
+
+        <figure class="image-container">
+       -->
+          <!-- Trigger the Modal -->
+<figure class="image-container">
+      <img id="myImg3" src="img/updatedujm.jpg"  style="width:100%;max-width:100%">
+          
+
+
+
+            <figcaption> Our user journey map for Finance Forest. Hover to expand. </figcaption>
+
+        </figure>
+
+        <h3 id="part5-3">Interactive Prototype</h3>
+
+        <figure class="image-container">
+          <iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FiMusdYh4ZMpvflyO9auJA4%2FFinance-Forest-Version-4-This-one%3Fnode-id%3D0%253A3%26scaling%3Dscale-down" allowfullscreen></iframe>
+        </figure>
+
+
+        <h3 id="part5-4">Style Guide</h3>
+
+        <figure class="image-container">
+          <img src="img/styleguide3.png" alt=/>
+        </figure>
+
+        <h3 id="part5-5">Video Pitch</h3>
+
+        <figure class="video-container">
+          <iframe src="https://www.youtube.com/embed/TozXRVTua9g" frameborder="0" allow="autoplay; encrypted-media"
+          allowfullscreen></iframe>
+        </figure>
+
+
+        <h3 >Video Walkthrough</h3>
+
+        <figure class="video-container">
+          <iframe src="https://www.youtube.com/embed/YOzycmcmLHw" frameborder="0" allow="autoplay; encrypted-media"
+          allowfullscreen></iframe>
+        </figure>
+
+        <h2 id="part6">Next Steps</h2>
+
+        <figure class="image-container">
+          <img src="img/commercial.jpg" alt="a bumpy road through forest"/>
+
+        </figure>
+
+        <p>We aim to <strong> add more features </strong> and customisation to make the application even more engaging. This will include timed in-game events, a tree maintenance mini game to earn extra money, and the possibility for users to unlock accessories to customise their avatars.</p>
+
+        <p>When it becomes time for implementation, partnering with the federal government would be ideal and most likely necessary to be rolled out across schools.</p>
+
+        <p>After establishing ourselves within the primary school system, we could then develop a version for high school students, making sure the content is stimulating and information is given in bite-sized chunks. We would likely expand the application to mobiles as highschools are often more crowded and less inclined to use iPads.</p>
+
+        <p>Eventually if our successes continue, we want to spread Finance Forest globally, venturing into schools all around the world. This would be a large undertaking as other countries have varied expectations of education, and we would have to be considerate of cultural differences. Ideally we will be able to assist children, teenagers and young adults in forming excellent monetary habits all across the world.</p>
+
+        <p>Once we begin to commercialise, we will have to consider the stakeholders affected by Finance Forest. An impact of having a program dedicated to financial literacy means that the schools limited curriculum will have to change to accomodate it. Teachers and students will have to adapt to the new program, potentially losing time from other subjects.</p>
+
+        <p>The potential positives of teaching children financial literacy will far outweigh the negatives. Being in control of your finances can be life changing.A high level of financial literacy can even boost the economy, in Australia, and globally. As users make better decisions and avoid the burden of debt, an economy with more jobs and opportunities is inevitable (Damayanti et. al.  2018).</p>
+
+
+
+        <!--
+        <figure class="video-container">
+        <!-- Replace the src URL, make sure to use the embed URL if linking from from youtube -->
+        <!--
+        <iframe src="https://www.youtube.com/embed/bNh54LNUtv8" frameborder="0" allow="autoplay; encrypted-media"
+        allowfullscreen></iframe>
+        <figcaption>Video caption.</figcaption>
+      -->
+      <!--
+    </figure>
+  -->
+
+</section>
+
+<section class="content-container">
+  <h1 id="part7">References</h1>
+
+  <p>Damayanti, S.M., Murtaqi, I. & Pradana, H.A. 2018, The importance of financial literacy in a global economic era, The Academy of Business and Retail Management (ABRM), London.</p>
+
+  <p>Drews, E 2017, Design Mobile Swiping That Enhances User Experience, Medium, Inspiration Supply, https://medium.com/inspiration-supply/design-mobile-swiping-that-enhances-user-experience-59c86b20317c [Accessed 26th Oct. 2019]</p>
+
+  <p>Duncan, M 2016, asphalt road between trees, Unsplash.com, Unsplash, https://unsplash.com/photos/IUY_3DvM__w [Accessed 14 Nov. 2019] </p>
+
+  <p>Financial Planning Association of Australia (2018). Share the Dream: Research into Raising the Invisible-Money Generation. [online] https://www.moneyandlife.com.au/professionals/. Available at: https://resources.moneyandlife.com.au/hubfs/FPA%20Share%20the%20Dream%20Report%20-%20August%202018.pdf [Accessed 26 Aug. 2019].</p>
+
+  <p>Kees Dorst 2015, Frame innovation : Create New Thinking by Design, The Mit Press, Cambridge, Massachusetts.</p>
+
+  <p>‌Material.io 2019, Gestures, Material Design, Google, viewed 26 October 2019, https://material.io/design/interaction/gestures.html#types-of-gestures </p>
+
+  <p>pik, free (2018). Collection of tree isolated on white background. 2965609. Freepik.com. Available at: https://www.freepik.com/free-photos-vectors/tree [Accessed 14 Nov. 2019]</p>
+
+  <p>‌pik, free (2019). Falling banknotes 5297295. Freepik.com. Available at: https://www.freepik.com/free-vector/variety-bills-with-coins-other-elements_1065333.htm#page=1&query=money&position=6 [Accessed 14 Nov. 2019].</p>
+
+
+</section>
+
+
+<section class="content-container">
+  <div class="center-container">
+    <a id="part8" class="button" href="task3-appendix.html">
+      <span class="label">Appendix</span>
+      <svg class="icon-arrow">
+        <use xlink:href="#arrow"></use>
+      </svg>
+    </a>
+
+  </div>
+</section>
+</article>
+</main>
+
+<!-- DO NOT modify the following code -->
+<footer>
+  <a href="#top">
+    <svg class="icon-arrow-up">
+      <use xlink:href="#arrow"></use>
+    </svg>Back to top</a>
+    <div class="logo-container"><img src="img/USydLogo.svg" /></div>
+    <svg style="display: none;">
+      <defs>
+        <symbol id="arrow" viewBox="0 0 35 15">
+          <title>Arrow</title>
+          <path d="M27.172 5L25 2.828 27.828 0 34.9 7.071l-7.07 7.071L25 11.314 27.314 9H0V5h27.172z " />
+        </symbol>
+      </defs>
+    </svg>
+  </footer>
+
+
+  <!-- Required imported js -->
+  <script src="js/scrollmenu.js"></script>
+  <script type="text/javascript">
+  new ScrollMenu('.aside-container a[href*="#"]', {
+    duration: 500,
+    activeOffset: 100,
+  })
+  new ScrollMenu('footer a[href*="#"], .content-container a[href*="#"]', {
+    duration: 500,
+  })
+  </script>
+
+
+</body>
+
+</html>
